@@ -2,7 +2,6 @@
 all: 
 	cd anim; make
 	cd emu; make
-	cd https_test; make
 	cd macintosh; make
 	cd sdl_gol; make
 	cd snake; make
@@ -14,7 +13,6 @@ all:
 clean: 
 	cd anim; make clean
 	cd emu; make clean
-	cd https_test; make clean
 	cd macintosh; make clean
 	cd sdl_gol; make clean
 	cd snake; make clean

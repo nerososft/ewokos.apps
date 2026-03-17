@@ -3,6 +3,7 @@ all:
 	cd anim; make
 	cd emu; make
 	cd macintosh; make
+	cd kimi_chat; make
 	cd sdl_gol; make
 	cd snake; make
 	cd gobang; make
@@ -14,6 +15,7 @@ clean:
 	cd anim; make clean
 	cd emu; make clean
 	cd macintosh; make clean
+	cd kimi_chat; make clean
 	cd sdl_gol; make clean
 	cd snake; make clean
 	cd gobang; make clean
